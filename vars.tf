@@ -1,16 +1,16 @@
 # Defining Public Key
 variable "public_key" {
-  default = "tests.pub"
+  default = "kp-nv-ubu"
 }
 
 # Defining Private Key
 variable "private_key" {
-  default = "tests.pem"
+  default = "kp-nv-ubu"
 }
 
 # Definign Key Name for connection
 variable "key_name" {
-  default = "tests"
+  default = "kp-nv-ubu"
   description = "Desired name of AWS key pair"
 }
 
